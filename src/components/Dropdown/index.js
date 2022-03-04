@@ -1,13 +1,18 @@
 import React from "react";
 import { Select, InputNumber } from "antd";
 
-const DropdownWithOptions = ({ label, options, handleChange }) => {
+const DropdownWithOptions = ({
+  label,
+  options,
+  handleChange,
+  width = "150",
+}) => {
   const { Option } = Select;
   const optionKeys = Object.keys(options);
 
   return (
     <div style={{ display: "flex", flexDirection: "row" }}>
-      <p style={{ width: "150px" }}>{label}</p>
+      <p style={{ width: `${width}px`, fontSize: "14px" }}>{label}</p>
       <span style={{ padding: "0 5px" }}>:</span>
       {!optionKeys.includes("type") ? (
         <Select

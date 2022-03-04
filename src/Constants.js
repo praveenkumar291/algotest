@@ -1,6 +1,6 @@
 export const data = {
   "Strike Type": {
-    STRIKETYPE: {
+    "Strike Type": {
       list: [
         "ITM10",
         "ITM9",
@@ -25,50 +25,50 @@ export const data = {
         "OTM10",
       ],
     },
-    EXPIRY: { list: ["Weekly", "Monthly"] },
-    POSITION: { list: ["Buy", "Sell"] },
-    "TOTAL LOT": {
+    Expiry: { list: ["Weekly", "Monthly"] },
+    Position: { list: ["Buy", "Sell"] },
+    "Total Lot": {
       list: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
       type: "input",
     },
   },
   "Premium Range": {
-    "LOWER RANGE": {
+    "Lower Range": {
       list: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
       type: "input",
     },
-    "UPPER RANGE": {
+    "Upper Range": {
       list: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
       type: "input",
     },
-    EXPIRY: { list: ["Weekly", "Monthly"] },
-    POSITION: { list: ["Buy", "Sell"] },
-    "TOTAL LOT": {
+    Expiry: { list: ["Weekly", "Monthly"] },
+    Position: { list: ["Buy", "Sell"] },
+    "Total Lot": {
       list: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
       type: "input",
     },
   },
   "Closest Premium": {
-    PRIMIUM: {
+    Premium: {
       list: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
       type: "input",
     },
-    EXPIRY: { list: ["Weekly", "Monthly"] },
-    POSITION: { list: ["Buy", "Sell"] },
-    "TOTAL LOT": {
+    Expiry: { list: ["Weekly", "Monthly"] },
+    Position: { list: ["Buy", "Sell"] },
+    "Total Lot": {
       list: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
       type: "input",
     },
   },
   "Staddle Width": {
-    "ATM STRIKE": { list: ["+", "-"] },
-    "TIME & ATM STRADDLE": {
+    "ATM Strike": { list: ["+", "-"] },
+    "Time & ATM Straddle": {
       list: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
       type: "input",
     },
-    EXPIRY: { list: ["Weekly", "Monthly"] },
-    POSITION: { list: ["Buy", "Sell"] },
-    "TOTAL LOT": {
+    Expiry: { list: ["Weekly", "Monthly"] },
+    Position: { list: ["Buy", "Sell"] },
+    "Total Lot": {
       list: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
       type: "input",
     },
